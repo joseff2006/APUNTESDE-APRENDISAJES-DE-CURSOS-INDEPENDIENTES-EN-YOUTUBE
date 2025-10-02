@@ -1,1 +1,79 @@
+/* selectores de etiquetas */
 
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /*el . se utiliza para seleccionar clases*/
+.texto {       
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* el # se utiliza para seleccionar ids */
+#mmg {
+    color: green;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+/* selectores universales, selecciona todos los  p
+que tengan esa clase  */
+
+p.texto {
+    font-size: 20px;
+}
+
+p.especial {
+    font-size: 25px;
+    color: purple;
+}
+
+/*el css se antepone al texto, es decir
+que si a una etiqueta que tiene 2 clases
+y una de ellas tiene un color y la otra
+tiene otro color, el css le va a dar
+prioridad a la que este de ultimo 
+ejemplo en la linea 10 se piede que 
+la palabra tenga rojo y en la linea 30
+dice que esa clase tendra verde el css
+ejecutara el verde  */
+
+
+
+
+/* este selecciona todos los p y sus desendientes
+que esten dentro de un div */
+
+div p {
+    color: orange;
+
+}
+
+
+/* este selecciona todos los h2 dentro de un div
+ y todos los  h3 aunque no esten drentro de un div*/
+
+div h2, h3 {
+    color: brown;
+}
+
+
+/* este selecciona todos los h2 dentro de un div
+ y todos los  h3 aunque  esten dentro de un div*/
+
+ div h2, div h3 {
+    color: brown;
+}
+
+/* selector universal, selecciona todos los elementos del 
+html y les aplica las mismas propiedades ojo si no ah sido 
+definidas ya por otros selectores, si ya un selector asigno el 
+color a un h1 este no lo puede cambiar
+pero si cualquier otra cosa que no se haya
+definido  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
