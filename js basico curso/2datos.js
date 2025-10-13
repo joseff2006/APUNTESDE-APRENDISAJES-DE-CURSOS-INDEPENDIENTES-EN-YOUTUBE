@@ -50,6 +50,7 @@ let mybigint = BigInt(234343458495845938459848448) // forma 1 de escribirlo
 let mybigint2 = 234343458495845938459848448n // forma 2 de escribirlo
 
 
-// mostrar los tipo d edatos 
+// mostrar los tipo d edatos con el typeof
 
 console.log (typeof mybigint2)
+
