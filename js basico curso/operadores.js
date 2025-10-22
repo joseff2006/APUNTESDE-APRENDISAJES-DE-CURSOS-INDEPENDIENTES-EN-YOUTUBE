@@ -90,13 +90,13 @@ console.log(a > b || b < 0); // false
 console.log((a > b || b > 0) && a > 0); // true
 console.log((a > b || b < 0) && a > 0); // false
 
-//not (!) : invierte el valor del operando
+//not (!) : invierte el valor del operando 
 console.log(!(a > b)); // true
 console.log(!(a < b)); // false
 
 
 // operador ternario : es una forma corta de escribir una condicion if-else
 
-    const isreining = true;
+    const isreining = false;
 
     isreining ? console.log("lleva paraguas") : console.log("no lleva paraguas");
