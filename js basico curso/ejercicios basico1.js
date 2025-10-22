@@ -62,12 +62,100 @@ numero = "5555"
 
 console.log (numero)
 
-ismael2 = 
+ismael2 = true
+console.log (ismael2)
+
+nulo = true
+console.log (nulo)
+
+indefinido = "mmg"
+
+console.log (indefinido)
+
+simbolo = Symbol("otro simbolo")
+
+console.log (simbolo)
+
+tusabes = BigInt(987654321098765432109876543210)
+
+console.log (tusabes)   
+
 
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
 
+ismael1 = 12345
+
+console.log (ismael1)
+
+numero = false
+
+console.log (numero)
+
+ismael2 = "hola" 
+console.log (ismael2)
+
+nulo = Symbol("nuevo simbolo")
+console.log (nulo)
+
+indefinido = BigInt(111222333444555666777888999000)
+console.log (indefinido)
+
+simbolo = null
+
+console.log (simbolo)
+
+tusabes = undefined
+
+console.log (tusabes)
+
+
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
+const cantante = ("alan walker")
+console.log (cantante)  // string
+
+const boleta = ("2025")
+console.log (boleta) //number
+
+const acceso = true
+console.log (acceso) // boolean
+
+const denegado = null
+console.log(denegado) // null
+
+const noencontrado = undefined
+console.log (noencontrado) // undefinited
+
+const logo = Symbol ("@")
+console.log (logo) //symbol
+
+const boletafull = BigInt (233233445454443436346)
+console.log (boletafull) //Bigint
+
+
 // 9. A continuación, modifica los valores de las constantes
+
+cantante = ("pablo alboran")
+console.log (cantante)
+
+boleta =("2026")
+console.log (boleta)
+
+acceso = false
+console.log(acceso)
+
+denegado = ("hola")
+console.log (denegado)
+
+noencontrado = Symbol ("$")
+console.log (noencontrado)
+
+logo = (23432)
+console.log (logo)
+
+boletafull = ("3555045953") 
+console.log (boletafull)
+
+// no se va a jecutar este codigo a menos que borre las cosas de el ejercicio 9 ya que estan modificando una cosntante y eeso da error al ejecutar .
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
