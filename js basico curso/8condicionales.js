@@ -32,7 +32,7 @@ else if (nota >= 70)
 
  // Muestra el día de la semana según un número
 
-let dia = 2;
+let dia = 3;
 
 switch (dia) {
   case 1:
@@ -81,15 +81,7 @@ if (respuesta === "No")
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-let present = "no"
 
-if (present === "si") {
-    console.log ("registrate en la pagina wed")
-}
-
-else if (present === "no") {
-    console.log("muevalo de ahi")
-}
 
 let comida = "ensalada"
 
@@ -101,39 +93,3 @@ switch (comida) {
             console.log ("comida saludable")
 }
 
-// Pedimos al usuario que escriba un número del 1 al 7
-let dia = Number(prompt("Escribe un número del 1 al 7 para saber el día de la semana:"));
-
-// Usamos switch para evaluar el valor que escribió el usuario
-switch (dia) {
-    case 1:
-        console.log("Lunes");
-        break;
-
-    case 2:
-        console.log("Martes");
-        break;
-
-    case 3:
-        console.log("Miércoles");
-        break;
-
-    case 4:
-        console.log("Jueves");
-        break;
-
-    case 5:
-        console.log("Viernes");
-        break;
-
-    case 6:
-        console.log("Sábado");
-        break;
-
-    case 7:
-        console.log("Domingo");
-        break;
-
-    default:
-        console.log("Número no válido. Debe ser del 1 al 7.");
-}
