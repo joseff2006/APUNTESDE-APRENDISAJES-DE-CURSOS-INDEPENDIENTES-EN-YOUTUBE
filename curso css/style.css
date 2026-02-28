@@ -1,8 +1,8 @@
 /* selectores de etiquetas */
 
 h1 {
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 17, 78);
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
 
  /*el . se utiliza para seleccionar clases*/
@@ -14,7 +14,7 @@ h1 {
 /* el # se utiliza para seleccionar ids */
 #mmg {
     color: green;
-    font-family: 'Lucida Console', 'Courier New', monospace;
+    font-family: 'Times New Roman', Times, serif, 'Courier New', monospace;
 }
 
 /* selectores universales, selecciona todos los  p

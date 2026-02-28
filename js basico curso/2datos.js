@@ -26,7 +26,7 @@ let isman = false
 //indefinidos (undefined) son paras variables que han sido declaradas pero no inicializadas 
 
 
-let indefinidos
+let indefinidos 
 console.log(indefinidos)
 
 

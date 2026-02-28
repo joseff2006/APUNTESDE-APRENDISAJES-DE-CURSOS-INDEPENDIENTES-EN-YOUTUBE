@@ -47,3 +47,8 @@ mi nombre es Ismael,
 el mejor`
 console.log (multi_linea)
 
+console.log("hola," + myname + "!")  // esto es una forma de concatenar strings con el operador +
+console.log(`hola, ${myname}!`) // esto es una forma de concatenar strings con template literals y es importante el acento del final de la palabra template literals ` ` para que funcione correctamente
+
+
+
