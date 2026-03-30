@@ -17,7 +17,7 @@ if (edad >= 18)
 // Condicional IF...ELSE IF...ELSE Sirve para evaluar varias condiciones en orden.
 // Clasifica una nota numérica
 
-let nota = 85;
+let nota = 100;
 
 if (nota >= 90) 
   console.log("A");
@@ -32,7 +32,7 @@ else if (nota >= 70)
 
  // Muestra el día de la semana según un número
 
-let dia = 3;
+let dia = 7;
 
 switch (dia) {
   case 1:
@@ -51,7 +51,7 @@ switch (dia) {
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-let age = 17
+let age = 56
 
 if (age <= 15)
 {

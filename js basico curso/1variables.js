@@ -18,11 +18,12 @@ console.log(helloWorld55)
 
 /*let pasa casi lo mismo que var lo unico que no se puede 
 acceder a ella si haberla declarado es decir que si en la linea 1 pongo
-console.log con la variable y luego le asifgo con let el valor no se 
+console.log con la variable y luego le asigno de nuevo con let el valor no se 
 ejecutara pero con var si lo hubese hecho*/
 
 let nm = "hola ismael"
 console.log(nm)
+
 
 /*const sin embargoa diferencia de las otras 2 const tiene un valor
 constante es decir que si luego de declarar la con const pretendo darle 
@@ -30,7 +31,7 @@ otro valor la ejecusion me dara error ya que el valor que le dimos con const
 a esa variable es constante a menos que se edite el const, pero las referencias
 si permite modificarlas*/ 
 
-const is = "hola ismael"
+const is = "hola "
 console.log(is)
 
 
