@@ -1,61 +1,79 @@
 // concatena 2 cadenas de texto
 
-let mi_nombre = "ismael"
-let age = 19
+    let edad = (23)
+console.log (edad)
 
-console.log ("hola, mi nombre es " + mi_nombre + " y tengo " + age + " años") // esto es una forma de concatenar strings con el operador +
+let nombre = ("ismael")
+console.log(nombre)
 
+let pasion = ("sofware y ciberseguridad")
+console.log(pasion)
 
+console.log ("hola a todos mi nombre es " + nombre + " tengo " + edad + " anos de edad, mi pasion es estudiar sobre  " + pasion )
+
+let bienvenidamsj = ("hola " + nombre  + " gracias por darme los datos  nos encargarermos de briendarte cursos y informaciones de las areas " + pasion + " para que tengas una experiencias significativa  BIENVENIDO " )
+console.log (bienvenidamsj)
 
 // muestra la longitud de una cadena de texto
 
-let mensaje = "hola manoso"
+console.log ( "La opsion que introducciste sobre las areadas que quieres aprender tienen  " + pasion.length  + " caracteres")
 
-console.log ( mensaje.length)
 
 // muestra el primer y ultimo caracter de una cadena de texto
 
-let prueba = "practicare siempre par aser el mejor"
-console.log (prueba[0]) // primer caracter
-console.log (prueba[prueba.length -1]) // ultimo caracter
+const primero= pasion [0]
+const segundo = pasion[pasion.length -1]
+
+console.log (primero)
+console.log (segundo)
+
+const primer1 = pasion.at (0)
+const segundo1 = pasion.at(-1)
+
+console.log(primer1)
+console.log(segundo1)
 
 // convierte un string de texto a mayusculas y minusculas
 
-let covertir = "convertire este string a mayusculas y minusculas"
-console.log (covertir.toUpperCase()) // mayusculas
-console.log (covertir.toLowerCase()) // minusculas
+let mayusculas = ("ISMAEL")
+console.log (mayusculas.toLowerCase())
+
+let minusculas = ("ismael")
+console.log(minusculas.toUpperCase()) 
 
 // crea una cadena de texto en vari lineas
 
-let multi_linea = `hola
-mi nombre es ismael
-el mejor`
-console.log (multi_linea)
+let derechos = ("  este menjaje fue escrito por jiff")
+let mensaje = (`esto es un mensaje 
+    de varias lineas y que pude ser expresado`)
+
+    console.log(mensaje + derechos )
+
 
 // interpola el valor de una variable en un string 
 
-let nombre = "ismael"
-let edad = 19
-console.log (`hola me llamo ${nombre} y tengo ${edad} años`)
+let lenguaje = ("javascript")
+
+console.log (" hoy es viernes y estoy practicando un video del leguaje " + lenguaje)
 
 //reemplaza todos los espacios en blanco por guiones
 
-let texto = "reemplazare los espacios en blanco por guiones"
-console.log (texto.replace(/ /g, "-")) // el primer argumento es una expresion regular que busca todos los espacios en blanco y el segundo argumento es el caracter por el que se reemplazaran los espacios en blanco
+let remplazo = ("the weekend die for you ")
+
+console.log (remplazo.replace(" " , "_"))
+console.log(remplazo.replaceAll(" ", "_"));
 
 // comprueba si una cadena de texto contiene una palabra o frase especifica
 
-let frase = "hola me llamo ismael"
-console.log (frase.includes("ismael")) // devuelve true si la palabra o frase existe en la cadena de texto
-
-// comprueba si dos strings son iguales 
-
-let string1 = "hola"
-let string2 = "hola"
-console.log (string1 === string2) // devuelve true si los dos strings son iguales
+console.log (remplazo.includes("weekend"))
 
 // comprueba si dos strings tienen la misma longitud
 
-let string3 = "hola"
-let string4 = "mundo"
-console.log (string3.length === string4.length) // devuelve true si los dos strings tienen la misma longitud
+let texto1 = ("cinco letras")
+let texto2 = ("cinco letras")
+
+if (texto1.length === texto2.length )
+    console.log ("si tienen el mismo  numero de caracteres")
+else console.log ("esa mierda no se parecen ninguna") 
+
+
