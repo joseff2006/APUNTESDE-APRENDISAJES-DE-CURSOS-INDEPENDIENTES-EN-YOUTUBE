@@ -7,7 +7,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=7277
 
 // if (si)
 
-let turno = 
+let turno = 37
 
 if (age == 37) {
     console.log("La edad es 37")

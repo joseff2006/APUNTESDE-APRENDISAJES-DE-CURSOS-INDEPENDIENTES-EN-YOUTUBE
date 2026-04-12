@@ -1,6 +1,6 @@
 /* selectores de etiquetas */
 
-h1 {
+#copion {
     color: rgb(17, 17, 78);
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
@@ -76,4 +76,42 @@ definido  */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#perro {color: #000;
+}  /* hay defentes formas de asignae el color ejemplo solo poniendo #00 y el numero del color exagesimal , tambien con formato rgb (0.255.0 ) */
+
+ .jj {
+
+    /*border: 6px  black dashed;      la opcion border  el color y el dashed que puede cambiar por otro, es el tipo de borde, importante para acceder a todo el menu para ver lo tipos de bortdes debees presionar control mas barra espaciadora */
+
+    /* entre los topos de bordes que se pueden AGREGAR ESTAN 
+    
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    insert
+    outset
+    none
+    hidden
+    */
+border-style: solid;   /* este parametro a la clase le dice que se le va a signar una caracteristica que es un borde */
+border-color: blueviolet; /*por su parte esto le asigna un color a ese borde ya que usa el mismo parametro borde y le expecifica que va a tener un color */
+border-radius: 30px; /* asi mismo s ele dice que el borde apresar de el color y que es un borde se le dice que le de una tonalidad sircular al borde */
+border-width: 5px; /* esto le asigna una anchua ala borde, y las unidades de medidas se pueden utilizar cm, milimetros mm, 2rm etc*/
+
+
+ }
+
+#you {
+
+    background-color:rgba(0,0,0,0.5);    /* en este punto en la seleccion de color rgba  el cuarto (sero . algo) representa la transparencia  del color y lo 
+                                            duro es que muestra lo que hay detras pero la trasnparencia solo se le apliuca a el color */
+
+    opacity: 0.3;  /* esto hace que se vuelva transparente todo el elemento incliutendo texto y todo lo que este dentro*/
+
+
 }
