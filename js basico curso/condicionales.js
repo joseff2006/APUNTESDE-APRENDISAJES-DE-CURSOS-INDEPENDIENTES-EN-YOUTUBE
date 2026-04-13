@@ -7,7 +7,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=7277
 
 // if (si)
 
-let turno = 37
+let age = 37
 
 if (age == 37) {
     console.log("La edad es 37")
@@ -15,30 +15,32 @@ if (age == 37) {
 
 // else (si no)
 
-if (age == 37) {
-    console.log("La edad es 37")
+let dia = 6
+
+if (dia == 2) {
+    console.log("elejiste el martes")
 } else {
-    console.log("La edad no es 37")
+    console.log(" ese dia no exite ")
 }
 
 // else if (si no, si)
 
-if (age == 37) {
-    console.log("La edad es 37")
-} else if (age < 18) {
-    console.log("Es menor de edad")
+if (dia == 5) {
+    console.log("el dia es jueves ")
+} else if (dia > 5) {
+    console.log(" es finde semana")
 } else {
-    console.log("La edad no es 37 ni es menor de edad")
+    console.log("ese dia no existe")
 }
 
 // Operador ternario
 
-const message = age == 37 ? "La edad es 37" : "La edad no es 37"
+const message = dia == 37 ? "es un dia de la semana " : " ese no es el dia correcto"
 console.log(message)
 
 // switch
 
-let day = 3
+let day = 2
 let dayName
 
 switch (day) {
