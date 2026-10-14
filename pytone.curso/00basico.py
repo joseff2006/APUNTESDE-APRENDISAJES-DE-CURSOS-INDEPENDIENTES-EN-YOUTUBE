@@ -1,5 +1,5 @@
 # comentario del hola mundo 
-print ("hola mmg")
+print ("hola duro")
 print ('hola mundo')
 
 """
